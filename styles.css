@@ -1,0 +1,65 @@
+/* nav bar */
+
+.nav-bar {
+  background-color: #03A9F4;
+  height: 200px;
+  width: auto;
+}
+
+.nav-links {
+  color: #FFFFFF;
+  display: inline-block;
+  font-family: Roboto;
+  list-style: none;
+}
+
+.link-items {
+  display: inline-block;
+  margin-top: 120px;
+  padding: 10px;
+}
+
+.nav-user {
+  color: #FFFFFF;
+  display: inline-block;
+  float: right;
+  font-family: Roboto;
+  margin-right: 60px;
+}
+
+.nav-title {
+  color: #FFFFFF;
+  display: inline-block;
+  float: right;
+  font-family: Comfortaa;
+  margin-right: -160px;
+  margin-top: 135px;
+}
+
+/* icons */
+
+.fa-caret-down {
+  color: #FFEB3B;
+}
+
+.fa-feather-alt {
+  color: #FFFFFF;
+  display: inline-block;
+}
+
+.fa-play-circle {
+  color: #FFEB3B;
+}
+
+.fa-share-square {
+  color: #FFEB3B;
+}
+
+.fa-user-alt {
+  color: #FFEB3B;
+}
+
+.fa-user-circle {
+  color: #FFEB3B;
+  font-size: 26px;
+}
