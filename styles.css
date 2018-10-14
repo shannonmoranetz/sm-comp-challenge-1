@@ -1,8 +1,8 @@
 /* nav bar */
-
 .link-items {
   display: inline-block;
   margin-top: 120px;
+  margin-left: -20px;
   padding: 10px;
 }
 
@@ -24,7 +24,7 @@
   display: inline-block;
   float: right;
   font-family: Comfortaa;
-  margin-right: -160px;
+  margin-right: -130px;
   margin-top: 135px;
 }
 
@@ -33,13 +33,92 @@
   display: inline-block;
   float: right;
   font-family: Roboto;
-  margin-right: 60px;
+  margin-right: 40px;
+}
+
+/* page body */
+
+.page-body {
+  background-color: #e0e0e0;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.page-title {
+  margin: 20px;
+  font-family: Comfortaa;
+}
+
+/* cards */ 
+
+.card-1 {
+  border-style: solid;
+  border-width: 5px;
+  width: 10%;
+  height: 8%;
+
+}
+
+.card-1-content {
+
+}
+
+.card-1-header { 
+  background-image: url("images/raccoon1.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* card elements */
+
+.date {
+  font-family: Roboto;
+  font-size: 12px;  
+}
+
+.location-photos {
+  font-family: Roboto;
+}
+
+.name-location {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+.photos-number {
+  color: #03A9F4;
+  font-family: Comfortaa;
+  font-size: 30px;
+}
+
+.url {
+  word-wrap: break-all;
+}
+
+.url-box {
+  font-family: Roboto;
+}
+
+.views {
+  color: #FFFFFF;
+  font-family: Roboto;
+}
+
+.views-number {
+  color: #FFFFFF;
+  font-family: Comfortaa;
 }
 
 /* icons */
 
+.fa-arrow-circle-right {
+  color: #FFFFFF;
+  font-size: 60px;
+  }
+
 .fa-caret-down {
-  color: #FFEB3B;
+  color: #b2ff59;
 }
 
 .fa-feather-alt {
@@ -48,18 +127,18 @@
 }
 
 .fa-play-circle {
-  color: #FFEB3B;
+  color: #b2ff59;
 }
 
-.fa-share-square {
-  color: #FFEB3B;
+.fa-heartbeat {
+  color: #b2ff59;
 }
 
-.fa-user-alt {
-  color: #FFEB3B;
+.fa-shopping-bag {
+  color: #b2ff59;
 }
 
 .fa-user-circle {
-  color: #FFEB3B;
+  color: #b2ff59;
   font-size: 26px;
 }
