@@ -1,14 +1,32 @@
-/* nav bar */
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.center {
+  align-content: center;
+  background-color: #e0e0e0;
+  display: flex;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 400px;
+  padding-top: 100px;
+  width: 100%;
+}
 
 .link-items {
   display: inline-block;
   margin-top: 120px;
+  margin-left: 45px;
   padding: 10px;
 }
 
 .nav-bar {
   background-color: #03A9F4;
-  height: 200px;
+  height: 180px;
   width: auto;
 }
 
@@ -24,8 +42,8 @@
   display: inline-block;
   float: right;
   font-family: Comfortaa;
-  margin-right: -160px;
-  margin-top: 135px;
+  margin-right: -120px;
+  margin-top: 120px;
 }
 
 .nav-user {
@@ -34,12 +52,187 @@
   float: right;
   font-family: Roboto;
   margin-right: 60px;
+  margin-top: 10px;
 }
 
-/* icons */
+.page-title {
+  margin-left: 55px;
+  margin-top: 330px;
+  filter: none;
+  font-family: Comfortaa;
+  position: absolute;
+  top: -80px;
+}
+
+.push-content {
+  align-content: center;
+  background-color: #e0e0e0;
+  padding: 40px;
+  padding-right: 80px;
+}
+
+.card {
+  align-content: center;
+  background-color: #FFFFFF;
+  filter: drop-shadow(2.5px 5px 2.5px #78909c);
+  flex-direction: column;
+  height: 420px;
+  margin: 10px;
+  position: relative;
+  width: 300px;
+}
+
+.date {
+  color: #9e9e9e;
+  font-family: Roboto;
+  font-size: 12px;  
+  margin-bottom: 10px;
+  margin-left: 16px;
+}
+
+.name {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 16px;
+  margin-top: 10px;
+}
+
+.image-1 {
+  background-image: url("images/raccoon1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.image-2 {
+  background-image: url("images/raccoon2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.image-3 {
+  background-image: url("images/raccoon3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.image-4 {
+  background-image: url("images/raccoon4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.image-5 {
+  background-image: url("images/raccoon5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.image-6 {
+  background-image: url("images/raccoon6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.image-7 {
+  background-image: url("images/raccoon7.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.image-8 {
+  background-image: url("images/raccoon8.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+}
+
+.location {
+  font-family: Roboto;
+  font-size: 15px;
+  margin-left: 16px;
+  margin-top: 5px;
+}
+
+.location-title {
+  font-family: Roboto;
+  font-size: 12px;
+  margin-left: 16px;
+}
+
+.photos-number {
+  color: #03A9F4;
+  font-family: Comfortaa;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-left: 16px;
+  margin-top: 3px;
+}
+
+.photos-title {
+  font-family: Roboto;
+  margin-left: 16px;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.url {
+  font-family: Roboto;
+  font-size: 12px;
+  margin-bottom: 15px;
+  margin-left: 7px;
+  margin-top: 7px;
+  overflow-wrap: break-word;
+}
+
+.url-box {
+  background-color: #eeeeee;
+  border-radius: 1px;
+  height: 45px;
+  padding: 2px;
+  margin-left: 5%;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.views {
+  color: #FFFFFF;
+  float: right;
+  font-family: Roboto;
+  font-size: 12px;
+  position: relative;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.views-number {
+  color: #FFFFFF;
+  float: right;
+  font-family: Comfortaa;
+  font-weight: lighter;
+  font-size: 30px;
+  margin-left: 230px;
+  margin-right: 15px;
+  margin-top: -50px;  
+  position: relative;
+}
+
+.fa-arrow-circle-right {
+  color: #FFFFFF;
+  font-size: 60px;
+  margin-left: 5px;
+  padding: 10px;
+  }
 
 .fa-caret-down {
-  color: #FFEB3B;
+  color: #FFFFFF;
 }
 
 .fa-feather-alt {
@@ -47,19 +240,19 @@
   display: inline-block;
 }
 
+.fa-heartbeat {
+  color: #FFFFFF;
+}
+
 .fa-play-circle {
-  color: #FFEB3B;
+  color: #FFFFFF;
 }
 
-.fa-share-square {
-  color: #FFEB3B;
-}
-
-.fa-user-alt {
-  color: #FFEB3B;
+.fa-shopping-bag {
+  color: #FFFFFF;
 }
 
 .fa-user-circle {
-  color: #FFEB3B;
+  color: #FFFFFF;
   font-size: 26px;
 }
