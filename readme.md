@@ -5,8 +5,8 @@ This page was created using flexbox to align and handle the repositioning of the
 
 ### Original Comp
 
-![Original Comp](/images/screen1.png "Original Comp")
+![Original Comp](/images/screen2.jpg "Original Comp")
 
 ### Page Created 
 
-![Page Created](/images/screen2.jpg "Page Created")
+![Page Created](/images/screen1.png "Page Created")
