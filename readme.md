@@ -3,6 +3,10 @@
 
 This page was created using flexbox to align and handle the repositioning of the card elements. 
 
-![Original Comp](/images/screen1.png "Original Comp")
+### Original Comp
 
-![Page Created](/images/screen2.jpg "Page Created")
+![Original Comp](/images/screen2.jpg "Original Comp")
+
+### Page Created 
+
+![Page Created](/images/screen1.png "Page Created")
