@@ -1,7 +1,7 @@
 
 # Static Composition 1
 
-## HTML & CSS positioning exercise
+## CSS simple layout challenge
 
 * * *
 
