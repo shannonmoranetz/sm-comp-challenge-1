@@ -1,12 +1,23 @@
-# Static Comp 1
-## Shannon Moranetz
 
-This page was created using flexbox to align and handle the repositioning of the card elements. 
+# Static Composition 1
 
-### Original Comp
+## HTML & CSS positioning exercise
 
-![Original Comp](/images/screen2.jpg "Original Comp")
+* * *
 
-### Page Created 
+### Exercise positioning CSS3 flexbox items
 
-![Page Created](/images/screen1.png "Page Created")
+![Screenshot](https://i.imgur.com/cmUsMBn.jpg)
+
+### Features
+
+*   Static composition
+
+### Tech Stack
+
+*   HTML
+*   CSS3
+
+### Contributors
+
+* [Shannon Moranetz](https://github.com/shannonmoranetz)
