@@ -5,7 +5,7 @@
 
 * * *
 
-### Exercise positioning CSS3 flexbox items
+### Exercise positioning CSS3 flexbox items.
 
 ![Screenshot](https://i.imgur.com/cmUsMBn.jpg)
 
